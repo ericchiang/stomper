@@ -1,0 +1,8 @@
+FROM busybox:latest
+
+RUN mkdir foo
+RUN rm -rf foo
+RUN touch hi
+RUN rm hi
+RUN mkdir /home/bar
+RUN rm -rf /home/bar
